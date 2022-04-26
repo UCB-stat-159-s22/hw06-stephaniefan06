@@ -1,6 +1,8 @@
 import numpy as np
 import os
 import fnmatch
+import h5py
+import json
 
 from ligotools import readligo as rl
 
