@@ -68,10 +68,6 @@ Then we can view the code with (in another terminal), going to the `_build/html`
 python -m http.server
 ```
 
-<!-- #raw -->
-
-<!-- #endraw -->
-
 and then heading to this URL:
 
 [https://stat159.datahub.berkeley.edu/user-redirect/proxy/8000/index.html](https://stat159.datahub.berkeley.edu/user-redirect/proxy/8000/index.html)

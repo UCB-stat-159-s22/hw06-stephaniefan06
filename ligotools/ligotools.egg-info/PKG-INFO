@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ligotools
+Version: 0.2
+Summary: A Python library with tools to read LIGO data files
+Home-page: UNKNOWN
+Author: Ligo Scientific Collaboration (LSC) and Yiping Fan
+Author-email: losc@ligo.caltech.edu and stephanie06@berkeley.edu
+License: BSD 3-Clause License
+Description: 
+        This module provides tools for reading LIGO data
+        files.  Data along with supporting documentation
+        can be downloaded from the losc web site:
+        https://losc.ligo.org
+Keywords: tools,LIGO
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown

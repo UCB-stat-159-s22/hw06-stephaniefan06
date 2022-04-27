@@ -6,15 +6,16 @@ env :
 	bash -ic 'conda activate /srv/conda/envs/ligo;python -m ipykernel install --user --display-name "IPython -ligo"'
 
 
-#create jupyter book
+#build local jupyter book
 .PHONY : html
 html:
 	jupyter-book build .
-    
+
+#create the jupyter book link
 .PHONY : html-hub
 html-hub:
 	sphinx-build  . _build/html -D html_baseurl=${JUPYTERHUB_SERVICE_PREFIX}/proxy/absolute/8000
-	@echo "Start the Python http server and visit:
+	@echo Go to the _build/html folder and run "python -m http.server"
 	@echo "https://stat159.datahub.berkeley.edu/user-redirect/proxy/8000/index.html"
 
 # clean the folders
